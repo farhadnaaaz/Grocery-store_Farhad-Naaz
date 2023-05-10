@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#index{
+    background-color: white;
+    
+}
+.navbar{
+    background-color: whitesmoke;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+    
+}
+.navbar ul{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar li{
+    list-style-type: none;
+    padding: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    padding: 7px;
+}
+.navbar a:hover{
+    border-bottom: 2px solid red;
+    color: goldenrod;
+    transition: all .5s;
+}
+#heading{
+    font-size: 40px;
+    color: aquamarine;
+    font-family: cursive;
+    padding-left: 10px;
+    position: relative;
+}
+figure h6 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+.img1{
+    height: 73px;
+    width: 78px;
+    margin-left: 20px;
+    border-radius: 8px;
+   
+}
+.search{
+    color: gray;
+    height: 30px;
+    width: 250px;
+    border-radius: 8px;
+    border: 2px solid goldenrod;
+}
+.div2{
+    height: 400px;
+    width: 100%;
+   
+}
+.img2{
+    height: 100%;
+    width: 100%;
+  
+}
+.div3{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    text-align: center;
+    
+}
+.img3{
+    height: 250px;
+    width: 200px;
+}
+
+/* login form css */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    
+    background-size: 100% 740px;
+ }
+ h1{
+    margin: 10px;
+ }
+ .contain{
+    background-color: gray;
+ }
+ .index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+ 
+.navbar ul li a img {
+    width: 30px;
+}
+.contain {
+    width: 40%;
+    background-color: #f1fbff;
+    text-align: center;
+    color: #000;
+    margin: 87px auto;
+    border-radius: 15px;
+}
+.contain.text{
+    position: relative;
+    top: 7%;
+}
+.inp2 {
+    border: none;
+    background-color: rgb(242 242 242 / 36%);
+    color: black;
+    border-bottom: 2px solid aqua;
+    font-size: 16px;
+    height: 45px;
+    width: 100%;
+    margin: 20px;
+    padding: 4px 23px;
+    border-radius: 40px;
+}
+
+.text button {
+    width: 100%;
+    background-color: #000000;
+    color: black;
+    border: none;
+    font-size: 20px;
+    border-radius: 80px;
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.sign1{
+    text-decoration: none;
+    color: aqua;
+    padding: 2px;
+}
+
+/* Registration form css */
+.form {
+    background-color: #f1fbff;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10px;
+}
+.inp1 {
+    border: none;
+    background-color: white;
+    height: 46px;
+    width: 40%;
+    font-size: 16px;
+    margin-top: 40px;
+    border-radius: 51px;
+    padding-left: 15px;
+}
+.btn2 {
+    width: 200px;
+    height: 60px;
+    background-color: #000;
+   
+    border: none;
+    font-size: 17px;
+    border-radius: 60px;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: rgb(64, 238, 64);
+    color: white;
+}
+
+/* about page css */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about1{
+    width:600px ;
+}
+.about2{
+    margin-left: 50px;
+    padding-top: 80px;
+    padding-left: 100px;
+    text-align: center;
+    height: 350px;
+    width: 500px;
+}
+.ah1{
+    color: gray;
+}
+.ap{
+    font-size: 16px;
+    margin: 20px;
+}
+nav.navbar img {
+    width: 78px;
+}
+.aimage{
+    height: 350px;
+    width: 550px;
+    margin: 8%;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+.read{
+    position: relative;
+    background-color: goldenrod;
+    padding: 7px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 7px;
+    margin: 10px;
+}
+.read:hover{
+    color: rgb(74, 240, 74);
+}
+
+/* contact page css */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+.cdiv1{
+    border: 2px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+.cdiv2{
+    border: 2px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    padding:20px;
+}
+.cdiv3{
+    border: 2px solid gray;
+    border-radius: 25px;
+    text-align: center;
+    background-color: gray;
+    color: whitesmoke;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+}
+/*......footer........*/
+footer.main_footer {
+    width: 100%;
+    background: #000;
+   
+}
+.box_footer ul {
+    display: flex;
+}
+.box_footer ul li {
+    margin: 0 10px;
+}
+.box_footer ul li img {
+    width: 40px;
+}
+.container{
+     padding: 90px 10px;
+     display: flex;
+     align-items: center;
+}
+ul.link_list {
+    display: block;
+}
+ul.link_list li {
+    margin-bottom: 10px;
+    list-style: none;
+    margin-left: 0px;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.box_footer h3 {
+   color: #fff;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.box_footer {
+    width: 25%;
+}
+.box_footer p {
+    color: #fff;
+}
+.email_form input[type="text"] {
+    height: 40px;
+    padding: 0px 20px;
+    width: 75%;
+}
+.email_form {
+    display: flex;
+    flex-direction: column;
+        margin-top: 10px;
+}
+.button-1 {
+    width: 50%;
+    padding: 12px;
+    margin-top: 7px;
+    border-radius: 0px;
+    background: #03a9f4;
+    border: navajowhite;
+    font-weight: 700;
+    color: #fff;
+}
+figure button{
+    width: 50%;
+    padding: 12px;
+    margin-top: 7px;
+    border-radius: 0px;
+    background: #03a9f4;
+    border: navajowhite;
+    font-weight: 700;
+    color: #fff;
+}
+.footer_logo {
+    margin-bottom: 15px;
+}
+
+/*....shop........*/
+.shop_banner {
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cecece;
+}
+
+/*....cart........*/
+.cart_box {
+    width: 20.33%;
+}
+.inner_box {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 20px 0px;
+    background: #f3f3f3;
+    padding: 19px;
+}
+.cart_box img.img3 {
+    width: 75px;
+    height: 100px;
+}
+.cart_page {
+    margin: 15px;
+    padding: 35px;
+    border: 1px solid gray;
+}
+cart_box h6 {
+    margin-bottom: 8px;
+}
+.close_btn {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.cart_box1 {
+    width: 10%;
+}
+.wrap input {
+    width: 24px;
+    height: 28px;
+    padding: 0px 7px;
+}
+.wrap button {
+    padding: 6px;
+    background: #2196F3;
+    font-size: 14px;
+    color: #FFF;
+    border: 1px solid #2196F3;
+}
+.wrap{
+    margin-top: 10px ;
+    align-items: center;
+}
