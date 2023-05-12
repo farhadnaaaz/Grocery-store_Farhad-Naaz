@@ -157,6 +157,7 @@ p{
     padding: 2px;
 }
 
+  
 /* Registration form css */
 .form {
     background-color: #f1fbff;
@@ -229,18 +230,20 @@ nav.navbar img {
     border: 1px solid gray;
     border-radius: 25px;
 }
-.read{
+.myBtn{
     position: relative;
     background-color: goldenrod;
     padding: 7px;
     text-decoration: none;
     color: whitesmoke;
-    border-radius: 7px;
+    border-radius: 2px;
     margin: 10px;
+   
 }
-.read:hover{
-    color: rgb(74, 240, 74);
+.myBtn:hover{
+    color: green;
 }
+#more {display: none;}
 
 /* contact page css */
 
@@ -317,6 +320,12 @@ li a {
     text-decoration: none;
     font-size: 22px;
 }
+li a:hover {
+    border-bottom: 2px solid red;
+   transition: all .5s;
+ }
+   
+
 .box_footer h3 {
    color: #fff;
     margin-bottom: 15px;

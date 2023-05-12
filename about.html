@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocery-Store_Website</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,12 +28,34 @@
             <img src="images/small-grocery-stores.jpg" alt="" class="aimage">
         </div>
         <div class="about2">
-            <h1 class="ah1">Welcome To Our Shop</h1>
+            <h1 class="ah1">Welcome To Our Website</h1>
             <h2 class="ah2">Fresh And Organic Groceries Store </h2>
-            <p class="ap">Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis optio, esse quod porro at culpa unde soluta praesentium corporis ipsam neque pariatur harum non accusamus velit animi nulla! Modi distinctio ut omnis debitis numquam perspiciatis corporis accusantium blanditiis? Dolorem at corporis commodi voluptate tempore architecto repellendus laborum vero cum?</p>
-            <a href="#" class="read">Read More</a>
+            <p class="ap"><i>A grocery store ,grocery shop or simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged.
+                 In everyday usage, however, "grocery store" is a synonym for supermarket, and is not used to refer to other types of stores that sell groceries<span id="dots">...</span><span id="more">
+                In the indea, shops that sell food are (though in everyday use, people usually use either the term "supermarket" or a "corner shop" or "convenience shop").
+               Larger types of stores that sell groceries,  such as  household items. Small grocery stores that sell mainly fruit and vegetables are known as greengrocers or produce market.</i></span></p>
+            <button onclick="myFunction()" class="myBtn" id="myBtn">Read more</button>
+
         </div>
     </div>
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        
      <footer class="main_footer">
                 <div class="container">
                    <div class="box_footer">
@@ -55,26 +77,37 @@
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Index</a></li>
-                          <li><a href="#">Shop</a></li>
-                            <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Index</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                     
                 </div>
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Cart</a></li>
-                          <li><a href="#">Log in</a></li>
-                            <li><a href="#">Register</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                          <li><a href="login.html">Log in</a></li>
+                            <li><a href="registration.html">Register</a></li>
                              
                     
                 </div>
                 <div class="box_footer">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1">Send</button></div>
+                    <p>A grocery store, grocery shop or simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged. In everyday  usage, however, "grocery store" is a synonym for supermarket.</p>
+                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1" id="send" onclick="Emailsend()">Send</button></div>
                 </div>
                 </div>
             </footer>
+            <script>
+               
+                function Emailsend(){
+              
+                 
+              alert("Email successfully send")
+             
+             // alert("item added in cart")
+                          }
+   
+               </script>
 </body>
 </html>

@@ -32,31 +32,31 @@
                     <img src="images/Flours.image.jpg" class="img3">
                     <figcaption>Flours</figcaption>
                     <h6>Rs200</h6>
-                    <button>Add To Cart</button>
+                    <button onclick="AddCart()" >Add To Cart</button>
                 </figure>
                 <figure>
                     <img src="images/stoberry.jpg" class="img3">
                     <figcaption>Stoberry</figcaption>
                     <h6>Rs300</h6>
-                    <button>Add To Cart</button>
+                    <button  onclick="AddCart()">Add To Cart</button>
                 </figure>
                 <figure>
                     <img src="Images/Graps.jpg" class="img3">
                     <figcaption>Graps</figcaption>
                     <h6>Rs150</h6>
-                    <button>Add To Cart</button>
+                    <button onclick="AddCart()">Add To Cart</button>
                 </figure>
                 <figure>
-                    <img src="Images/oreo-image.jpg" class="img3">
-                    <figcaption>Oreo</figcaption>
-                    <h6>Rs30</h6>
-                    <button>Add To Cart</button>
+                    <img src="Images/Dry-Fruit-image.jpg" class="img3">
+                    <figcaption>Dry-Fruit</figcaption>
+                    <h6>Rs800</h6>
+                    <button onclick="AddCart()">Add To Cart</button>
                 </figure>
                 <figure>
                     <img src="images/CC Cream.webp" class="img3">
                     <figcaption>CC Cream</figcaption>
                     <h6>Rs99</h6>
-                    <button>Add To Cart</button>
+                    <button onclick="AddCart()">Add To Cart</button>
                 </figure>
                </div>
 
@@ -83,27 +83,49 @@
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">index</a></li>
-                          <li><a href="#">Shop</a></li>
-                            <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">index</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                     
                 </div>
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Cart</a></li>
-                          <li><a href="#">Log in</a></li>
-                            <li><a href="#">Register</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                          <li><a href="login.html">Login</a></li>
+                            <li><a href="registration.html">Register</a></li>
                              
                     
                 </div>
                 <div class="box_footer">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1">Send</button></div>
-                </div>
+                    <p>A grocery store, grocery shop or simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged. In everyday  usage, however, "grocery store" is a synonym for supermarket</p>
+                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1" id="send" onclick="Emailsend()">Send</button></div>
                 </div>
             </footer>
+
+           
+
+            <script>
+                function AddCart(){
+              
+                 
+    alert("Item Added In Cart!")
+   
+   // alert("item added in cart")
+                }
+               </script>
+                <script>
+               
+                    function Emailsend(){
+                  
+                     
+                  alert("Email successfully send")
+                 
+                 // alert("item added in cart")
+                              }
+       
+                   </script>
                 
            </body>
 </html>

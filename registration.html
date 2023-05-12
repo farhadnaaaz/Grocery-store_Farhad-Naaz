@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocesry store_website</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,13 +25,28 @@
                 </ul>
             </nav>
             </section>
-        <form class="form">
+        <form class="form" onsubmit="return validateForm1()" action="">
             <h1>Registration Form</h1>
-            <input class="inp1" type="text" placeholder="Enter Name">
-            <input class="inp1" type="text" placeholder="Enter Username">
-            <input class="inp1" type="email" placeholder="Enter Email">
-            <input class="inp1" type="text" placeholder="Enter Address">
-            <input class="inp1" type="password" placeholder="Enter Password">
+            <input class="inp1" type="text" placeholder="Enter Name" id="name" onblur="validate3()">
+            <table>
+                <tr><td></td><td class="error" id="error3"></td></tr>
+           </table>
+            <input class="inp1" type="text" placeholder="Enter Username" id="usename" onblur="validate1()">
+            <table>
+                <tr><td></td><td class="error" id="error1"></td></tr>
+           </table>
+            <input class="inp1" type="email" placeholder="Enter Email" id="email" onblur="validate4()">
+            <table>
+                <tr><td></td><td class="error" id="error4"></td></tr>
+           </table>
+            <input class="inp1" type="text" placeholder="Enter Address"  id="addr" onblur="validate5()">
+            <table>
+                <tr><td></td><td class="error" id="error5"></td></tr>
+           </table>
+            <input class="inp1" type="password" placeholder="Enter Password" id="pass" onblur="validate2()">
+            <table>
+                <tr><td></td><td class="error" id="error2"></td></tr>
+            </table>
             <button class="btn2">Register</button>
         </form>
     </div>
@@ -51,30 +67,41 @@
                 
 
 
-                
-                <div class="box_footer">
+                   <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Index</a></li>
-                          <li><a href="#">Shop</a></li>
-                            <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Index</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                     
                 </div>
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Cart</a></li>
-                          <li><a href="#">Log in</a></li>
-                            <li><a href="#">Register</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                          <li><a href="login.html">Log in</a></li>
+                            <li><a href="registration.html">Register</a></li>
                              
                     
                 </div>
                 <div class="box_footer">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1">Send</button></div>
+                    <p>A grocery store, grocery shop or simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged. In everyday  usage, however, "grocery store" is a synonym for supermarket</p>
+                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1" id="send" onclick="Emailsend()">Send</button></div>
                 </div>
                 </div>
             </footer>
+            <script src="../JavaScript/validation.js"></script>
+            <script>
+               
+                function Emailsend(){
+              
+                 
+              alert("Email successfully send")
+             
+             // alert("item added in cart")
+                          }
+   
+               </script>
 </body>
 </html>

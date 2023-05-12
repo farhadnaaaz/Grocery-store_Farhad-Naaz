@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grocesry store_website</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -56,29 +56,40 @@
 
 
                 
-                <div class="box_footer">
+                   <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Index</a></li>
-                          <li><a href="#">Shop</a></li>
-                            <li><a href="#">About</a></li>
-                              <li><a href="#">Contact</a></li>
+                        <li><a href="index.html">Index</a></li>
+                          <li><a href="shop.html">Shop</a></li>
+                            <li><a href="about.html">About</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                     
                 </div>
                 <div class="box_footer">
                     <h3>Links</h3>
                     <ul class="link_list">
-                        <li><a href="#">Cart</a></li>
-                          <li><a href="#">Log in</a></li>
-                            <li><a href="#">Register</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                          <li><a href="login.html">Log in</a></li>
+                            <li><a href="registration.html">Register</a></li>
                              
                     
                 </div>
                 <div class="box_footer">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has</p>
-                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1">Send</button></div>
-                </div>
+                    <p>A grocery store, grocery shop or simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged. In everyday  usage, however, "grocery store" is a synonym for supermarket</p>
+                    <div class="email_form"><input type="text" name="Email" placeholder="Email"> <button class="button-1" id="send" onclick="Emailsend()">Send</button></div>
+                </div>                </div>
                 </div>
             </footer>
+            <script>
+               
+                function Emailsend(){
+              
+                 
+              alert("Email successfully send")
+             
+             // alert("item added in cart")
+                          }
+   
+               </script>
 </body>
 </html>
